@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/peter279k/laravel-simple-validation.svg?branch=master)](https://travis-ci.org/peter279k/laravel-simple-validation)
+[![Coverage Status](https://coveralls.io/repos/github/peter279k/laravel-simple-validation/badge.svg?branch=master)](https://coveralls.io/github/peter279k/laravel-simple-validation?branch=master)
+
 # Simple validation rule
 
 ## What?
