@@ -1,0 +1,36 @@
+{
+    "name": "lee/laravel-simple-validation",
+    "description": "add some useful validations rule to validate form values",
+    "type": "library",
+    "keywords": [
+      "laravel",
+      "validation",
+      "package",
+      "library"
+    ],
+    "require": {
+      "laravel/framework": "^5.5",
+      "php": "^7.0"
+    },
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "peter279k",
+        "email": "peter279k@gmail.com"
+      }
+    ],
+    "autoload": {
+      "psr-4": {
+        "Lee\\LaraSimpleValidation\\": "src/"
+      }
+    },
+    "autoload-dev": {
+      "psr-4": {
+        "Lee\\LaraSimpleValidation\\Tests\\": "tests/"
+      }
+    },
+    "minimum-stability": "stable",
+    "require-dev": {
+      "phpunit/phpunit": "^6.5 || ^7.0"
+    }
+  }
