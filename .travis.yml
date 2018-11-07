@@ -6,7 +6,10 @@ php:
   - 7.2
 
 install:
-  - travis_retry composer install --no-interaction --prefer-source
+  - travis_retry composer update --no-interaction --prefer-source
 
 script:
-  - vendor/bin/phpunit
+  - vendor/bin/phpunit --coverage-clover build/logs/clover.xml
+
+after_success:
+  - travis_retry vendor/bin/coveralls -v
